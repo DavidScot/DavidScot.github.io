@@ -2,30 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(170, 27, 227);
 }
 
 header {
-    background-color: #333;
-    padding: 20px;
+    background-color: #293657;
+    padding: 50px;
 }
 
-.logo img {
-    max-width: 200px;
-}
 
+.header-with-image {
+    background-image: url('images/header2.png');
+    background-size: cover; /* This ensures the image covers the entire header */
+    background-position: center; /* This centers the image within the header */
+    height: 100px; /* Adjust the height of the header */
+    /* You can also specify width, padding, margins, etc. for the header */
+
+}
 nav ul {
     list-style-type: none;
     padding: 0;
+
+
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    margin-left: 20px;
+
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+
 }
 
 main {
@@ -33,10 +44,12 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color:  #293657;
 }
 
 #links {
     margin-top: 20px;
+
 }
 
 .link-container {
@@ -51,6 +64,7 @@ main {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color:  rgb(170, 27, 227)
 }
 
 .link img {
@@ -70,5 +84,7 @@ main {
 
 .link p {
     margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify
 }
 
