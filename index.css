@@ -1,38 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-header {
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
+.enlace {
+    width: 23%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    display: flex;
 }
 
-header img {
-    width: 100%;
-    /* Ajusta el tamaño de la imagen según tus necesidades */
+.enlace img {
+    width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 10px;
 }
 
-nav {
-    background-color: #f2f2f2;
-    padding: 10px 0;
-    text-align: center;
+.enlace .info {
+    flex: 1;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.enlace h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+.enlace p {
+    font-size: 14px;
+    color: #666;
 }
