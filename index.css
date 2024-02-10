@@ -1,13 +1,20 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(64, 58, 243);
+    background-color:  #293657;
 }
 
 header {
-    background-color: #293657;
+    background-color:  #293657;
     padding: 50px;
+    border-left: 80px solid  #293657;
+    border-right: 80px solid  #293657;
+    border-top: 20px solid  #293657;    
+    background:  color #293657;
+    margin: auto;
+
 }
 
 
@@ -16,7 +23,7 @@ header {
     background-size: cover; /* This ensures the image covers the entire header */
     background-position: center; /* This centers the image within the header */
     height: 100px; /* Adjust the height of the header */
-    /* You can also specify width, padding, margins, etc. for the header */
+   
 
 }
 nav ul {
@@ -44,7 +51,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color:  #293657;
+    background-color:  #2c2e34;
 }
 
 #links {
@@ -64,7 +71,7 @@ main {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color:  rgb(64, 58, 243)
+    background-color:   #293657;
 }
 
 .link img {
@@ -72,6 +79,7 @@ main {
     margin-right:7px;
     width: 80px;
     height: 80px;
+    border-radius: 10px;
 }
 
 .link .info {
@@ -92,6 +100,6 @@ main {
     margin-bottom: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    text-align: justify
+    text-align: left
 }
 
