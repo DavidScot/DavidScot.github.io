@@ -20,7 +20,7 @@ header {
 
 
 .header-with-image {
-    background-image: url('images/header2.png');
+    background-image: url('images/header2.jpg');
     background-size: cover; /* This ensures the image covers the entire header */
     background-position: center; /* This centers the image within the header */
     height: 30px; /* Adjust the height of the header */
